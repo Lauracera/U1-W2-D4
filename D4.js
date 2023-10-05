@@ -60,6 +60,21 @@ console.log(resultCrazyDiff);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function boundary(n) {
+    if (n >= 20 && n <= 100) {
+        const resultBoun = "True";
+        return resultBoun;
+    } else if (n === 400) {
+        const resultBoun2 = "True";
+        return resultBoun2;
+    } else {
+        const resultFalse = "False";
+        return resultFalse;
+    }
+}
+
+const resultBoundary = boundary(5);
+console.log(resultBoundary);
 
 /* ESERCIZIO 5
  Scrivi una funzione di nome "epify" che accetta una stringa come parametro.
