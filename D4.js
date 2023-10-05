@@ -22,16 +22,16 @@ console.log(functionResult);
 
 function crazySum(num1, num2) {
     if (num1 !== num2) {
-        const result1 = num1 + num2
+        const result1 = num1 + num2;
         return result1;
     } else { 
-         const result4 = (num1 + num2)*3 ;
-    return result4;
+        const result2 = (num1 + num2)*3;
+        return result2;
  }
 }
 
-const resultCrazySum = crazySum(5, 5)
-console.log(resultCrazySum)
+const resultCrazySum = crazySum(5, 5);
+console.log(resultCrazySum);
 
 
 /* ESERCIZIO 3
@@ -40,6 +40,19 @@ console.log(resultCrazySum)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function crazyDiff(num1) {
+    if (num1 <= 19) {
+        const differenza1 = num1 - 19;
+        return differenza1;
+    } else {
+        const differenza2 = (num1 - 19)* 3
+        return differenza2;
+    }
+}
+
+const resultCrazyDiff = crazyDiff(20);
+console.log(resultCrazyDiff);
 
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
