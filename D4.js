@@ -83,6 +83,18 @@ console.log(resultBoundary);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const phraseProva = " benvenuti"
+
+const epify = function (string1) {
+    console.log (string1 + ", Web Developer"); 
+    if ("EPICODE" === phraseProva ) {
+        phraseProva = " benvenuti"
+
+    }
+} 
+
+epify("EPICODE")
+console.log(phraseProva)
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
@@ -110,6 +122,15 @@ console.log(resultBoundary);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const phrase = "Laura"
+
+function cutString () {
+const lPos = phrase.slice(1);
+return lPos
+}
+
+console.log(lPos)
+
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
