@@ -21,9 +21,17 @@ console.log(functionResult);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function crazySum(num1, num2) {
-    const somma = num1 + num2;
+    if (num1 !== num2) {
+        const result1 = num1 + num2
+        return result1;
+    } else { 
+         const result4 = (num1 + num2)*3 ;
+    return result4;
+ }
 }
 
+const resultCrazySum = crazySum(5, 5)
+console.log(resultCrazySum)
 
 
 /* ESERCIZIO 3
